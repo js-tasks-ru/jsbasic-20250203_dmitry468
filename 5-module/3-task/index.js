@@ -14,7 +14,6 @@ function initCarousel() {
     } else {
       left_arrow.style.display = '';
     }
-    carousel_inner.style.transform = `translateX(${slide_width * slide_number}px)`;
 
     if (slide_number === slides.length-1) {
       right_arrow.style.display = 'none';    
